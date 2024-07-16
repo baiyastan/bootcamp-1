@@ -81,3 +81,68 @@
 }
 
 
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.banner-content {
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.banner-content h1 {
+    color: rgb(44, 44, 90);
+    font-size: 86px;
+    font-weight: 200;
+    line-height: 87px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.banner-btn button {
+    width: 220px;
+    height: 79px;
+    background: #EFD372;
+    border: none;
+    border-radius: 15px;
+
+    color: rgb(44, 44, 90);
+    font-family: Baskerville;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-content p {
+
+    padding: 0;
+    margin: 0;
+
+}
